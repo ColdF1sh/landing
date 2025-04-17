@@ -40,3 +40,13 @@ body { font-family: Arial, sans-serif; line-height: 1.6; }
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .hero {
+        padding: 2rem 0;
+    }
+}
