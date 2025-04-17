@@ -5,37 +5,195 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trimly - Система онлайн-запису</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header class="main-header">
-    <div class="container">
-        <h1>Trimly</h1>
-        <nav>
-            <a href="#features">Можливості</a>
-            <a href="#how-it-works">Як це працює</a>
-            <a href="#pricing">Тарифи</a>
-        </nav>
-    </div>
-</header>
-    <h1>Trimly</h1>
-    <p>Система онлайн-реєстрації клієнтів</p>
-    <section id="features" class="features">
-    <div class="container">
-        <h2>Наші можливості</h2>
-        <div class="features-grid">
-            <ul class="feature-card">
-                <li>Онлайн-запис 24/7</li>
-                <li>Клієнти можуть записуватися в будь-який час</li>
-            </ul>
+        <div class="container">
+            <a href="#" class="logo">Trimly</a>
+            <nav class="nav-links">
+                <a href="#features">Можливості</a>
+                <a href="#how-it-works">Як це працює</a>
+                <a href="#pricing">Тарифи</a>
+            </nav>
         </div>
-    </div>
-</section>
+    </header>
+
     <section class="hero">
-    <div class="container">
-        <h2>Онлайн-запис клієнтів для вашого бізнесу</h2>
-        <p>Автоматизуйте процес реєстрації та збільшуйте прибуток</p>
-        <button class="cta-button">Спробувати безкоштовно</button>
-    </div>
-</section>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Революційна система онлайн-запису</h1>
+                <p>Автоматизуйте бронювання, оптимізуйте графік роботи та збільшуйте дохід вашого бізнесу</p>
+                <div class="hero-buttons">
+                    <a href="#demo" class="cta-button">Спробувати безкоштовно</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400/f5f0ff/8a2be2" alt="Інтерфейс Trimly" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Наші можливості</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Онлайн-запис 24/7</h3>
+                    <p>Клієнти можуть записуватися в будь-який час, навіть коли заклад закритий</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Автоматичні нагадування</h3>
+                    <p>СМС та email сповіщення для зменшення кількості неявок</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Аналітика та звіти</h3>
+                    <p>Детальна статистика роботи вашого закладу</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Як це працює?</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Реєстрація</h3>
+                    <p>Створіть акаунт для вашого закладу</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Налаштування</h3>
+                    <p>Додайте послуги, працівників та графік роботи</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Інтеграція</h3>
+                    <p>Додайте віджет на свій сайт або соцмережі</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Готово!</h3>
+                    <p>Починайте приймати онлайн-записи</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Тарифні плани</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Стартовий</h3>
+                    <div class="price">₴299<span>/місяць</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> До 3 працівників</li>
+                        <li><i class="fas fa-check"></i> 100 записів на місяць</li>
+                        <li><i class="fas fa-check"></i> Базова статистика</li>
+                    </ul>
+                    <a href="#" class="cta-button-outline">Обрати</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Популярний</div>
+                    <h3>Бізнес</h3>
+                    <div class="price">₴599<span>/місяць</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> До 10 працівників</li>
+                        <li><i class="fas fa-check"></i> Необмежені записи</li>
+                        <li><i class="fas fa-check"></i> Розширена статистика</li>
+                        <li><i class="fas fa-check"></i> СМС нагадування</li>
+                    </ul>
+                    <a href="#" class="cta-button">Обрати</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Преміум</h3>
+                    <div class="price">₴999<span>/місяць</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Необмежені працівники</li>
+                        <li><i class="fas fa-check"></i> Пріоритетна підтримка</li>
+                        <li><i class="fas fa-check"></i> Індивідуальний дизайн</li>
+                        <li><i class="fas fa-check"></i> API доступ</li>
+                    </ul>
+                    <a href="#" class="cta-button-outline">Обрати</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Відгуки клієнтів</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote">"Trimly зробив нашу роботу на 50% ефективнішою!"</div>
+                    <div class="author">
+                        <img src="https://via.placeholder.com/60x60" alt="Ольга Коваленко">
+                        <div class="author-info">
+                            <h4>Ольга Коваленко</h4>
+                            <p>Власниця барбершопу "Чоловічий стиль"</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Додаткові відгуки -->
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="cta-section">
+        <div class="container">
+            <h2>Готові спробувати Trimly?</h2>
+            <p>Зареєструйтесь зараз та отримайте 14 днів безкоштовного тестування</p>
+            <a href="#" class="cta-button">Розпочати безкоштовний пробний період</a>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Trimly</a>
+                    <p>Інноваційна система онлайн-запису для бізнесу</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Меню</h4>
+                    <ul>
+                        <li><a href="#features">Можливості</a></li>
+                        <li><a href="#how-it-works">Як це працює</a></li>
+                        <li><a href="#pricing">Тарифи</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакти</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@trimly.com</li>
+                        <li><i class="fas fa-phone"></i> +380 12 345 6789</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Trimly. Усі права захищені.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
